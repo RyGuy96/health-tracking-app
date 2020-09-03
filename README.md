@@ -4,6 +4,7 @@ Light-weight app to track your symptoms and medications in Google Sheets using s
 
 Text a designated number symptoms and medication changes daily (or however often you want) and save results in a Google Sheet. Get intermittent reminders to text number.
 
+## Demo
 
 ![](demo.gif)
 
@@ -16,7 +17,7 @@ Text a designated number symptoms and medication changes daily (or however often
 ## Installing
 1. Download receiver files and optionally reminder files (if you would like to implement reminders)
 2. Customize .py files with the symptoms you want to track, how often you want reminders, etc
-3. Create Google Sheets file with headers 
+3. Create Google Sheets file with headers
 4. Get your own Drive API keys and replace in "client_secrets.json" - [Tutorial](https://pythonhosted.org/PyDrive/quickstart.html)
 5. Get your own Twilio keys and number and set in .py files
 5. Push repo files to Heroku or other hosting service. Schedule runs of reminder.py hourly.
